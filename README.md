@@ -1,2 +1,2 @@
 # riviera
-Riviera Floros
+Riviera Floors
