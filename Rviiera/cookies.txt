@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+riviera-home.nl	TRUE	/catalogus	FALSE	1999999999	PHPSESSID	t0pt6nu99h9qln8e4aehdub1fr
+riviera-home.nl	TRUE	/	FALSE	1999999999	CONCRETE5	scessf209v29j9qlga47grj7n0
+riviera-home.nl	TRUE	/	FALSE	1999999999	_dealer	deleted
+

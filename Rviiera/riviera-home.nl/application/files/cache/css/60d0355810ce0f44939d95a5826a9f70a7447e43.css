@@ -1,0 +1,108 @@
+.muntz-blog .container-fluid-wrapper {
+    overflow: hidden
+}
+
+.muntz-blog .blog-header {
+    text-align: center
+}
+
+.muntz-blog .blog-header h1 {
+    text-align: center;
+    margin: 15px 0
+}
+
+.muntz-blog .blog-description {
+    text-align: center
+}
+
+.muntz-blog .blog-header h2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 21px
+}
+
+.muntz-blog .blog-article h2 {
+    text-decoration: none;
+    margin-top: 0
+}
+
+.muntz-blog .blog-article a h2 {
+    margin-top: 10px
+}
+
+.muntz-blog .blog-article span.url {
+    display: inline-block
+}
+
+.muntz-blog .blog-article .banner {
+    width: 100%
+}
+
+.muntz-blog .blog-article a:hover {
+    text-decoration: none
+}
+
+.muntz-blog .article-sizer {
+    width: 25%;
+    padding: 15px
+}
+
+@media (max-width:1199px) {
+    .muntz-blog .article-sizer {
+        width: 33.3%
+    }
+}
+
+@media (max-width:991px) {
+    .muntz-blog .article-sizer {
+        width: 50%
+    }
+}
+
+@media (max-width:768px) {
+    .muntz-blog .article-sizer {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+
+.muntz-blog .article-info {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.muntz-blog .article-image-wrapper {
+    overflow: hidden
+}
+
+.muntz-blog .article-sizer .article-image-wrapper img {
+    -webkit-transition: all .7s ease;
+    transition: all .7s ease
+}
+
+.muntz-blog .article-sizer:hover .article-image-wrapper img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+.muntz-blog-detail .muntz-blog-detail-banner {
+    margin-bottom: 40px
+}
+
+.muntz-blog-detail .tags {
+    margin: 20px 0;
+    padding: 10px 0;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb
+}
+
+.muntz-blog-tags .tag-wrapper {
+    display: inline-block
+}
+
+.muntz-blog-tags .tag {
+    padding-left: 7px;
+    padding-right: 7px
+}
