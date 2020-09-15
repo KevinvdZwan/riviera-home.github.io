@@ -34,6 +34,7 @@
     <link href="../application/files/cache/css/687bcc9028f2df12c101d9e2b4e60c0efa05e9cf.css" rel="stylesheet"
         type="text/css" media="all"
         data-source="/concrete/css/jquery-ui.css /packages/revenew_toolkit/components/bootstrap/dist/css/bootstrap.min.css /packages/revenew_toolkit/components/jasny-bootstrap/dist/css/jasny-bootstrap.min.css /packages/revenew_toolkit/resources/jasny-bootstrap/fix/jasny-bootstrap.css /packages/revenew_toolkit/resources/bootstrap/responsive-rows-same-height/style.css /packages/revenew_newsletter/css/core-js.css">
+
     <script type="text/javascript" src="../application/themes/riviera/components/knockout/dist/knockout.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     <script src="../application/files/cache/js/form.js"></script>
@@ -213,7 +214,7 @@
                                 <h1>Riviera, SIMPELWEG DE BESTE EN MOOISTE VLOER TEGEN DE SCHERPSTE PRIJS....</h1>
                             </div>
                         </div>
-                        0
+
 
                         <div class="col-md-8 col-md-offset-2">
                             <div class="paragraph text-center">
@@ -245,13 +246,17 @@
                             <form action="https://formspree.io/xgepwyvq" method="POST">
                                 <label>
                                     <input type="radio" class="salutation" name="salutation" value="de-heer" required>
-                                    <label for="de-heer">De Heer</label><br>
+                                    <label for="de-heer">De Heer</label>
                                     <input type="radio" class="salutation" name="salutation" value="mevrouw" required>
                                     <label for="mevrouw">Mevrouw</label>
                                 </label>
                                 <label>
-                                    Naam
-                                    <input type="text" class="name" name="name" required />
+                                    Voorletter(s)
+                                    <input type="text" class="letters" name="letters" required />
+                                </label>
+                                <label>
+                                    Achternaam
+                                    <input type="text" class="lastname" name="lastname" required />
                                 </label>
                                 <label>
                                     E-Mail
