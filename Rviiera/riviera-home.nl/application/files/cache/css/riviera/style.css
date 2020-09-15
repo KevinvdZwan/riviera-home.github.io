@@ -12864,6 +12864,9 @@ footer .footer-copyright>li a:hover, footer .footer-copyright>li a:focus, footer
     }
 }
 
-label, input {
+label, input, textarea, salutation {
     display: block;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 0px;
 }

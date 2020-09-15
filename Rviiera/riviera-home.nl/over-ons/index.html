@@ -213,7 +213,7 @@
                                 <h1>Riviera, SIMPELWEG DE BESTE EN MOOISTE VLOER TEGEN DE SCHERPSTE PRIJS....</h1>
                             </div>
                         </div>
-0
+                        0
 
                         <div class="col-md-8 col-md-offset-2">
                             <div class="paragraph text-center">
@@ -242,23 +242,28 @@
                                 hieronder!
                             </h2>
 
-                            <form>
+                            <form action="https://formspree.io/xgepwyvq" method="POST">
+                                <label>
+                                    <input type="radio" class="salutation" name="salutation" value="de-heer" required>
+                                    <label for="de-heer">De Heer</label><br>
+                                    <input type="radio" class="salutation" name="salutation" value="mevrouw" required>
+                                    <label for="mevrouw">Mevrouw</label>
+                                </label>
                                 <label>
                                     Naam
-                                    <input type="text" class="name" />
+                                    <input type="text" class="name" name="name" required />
                                 </label>
                                 <label>
                                     E-Mail
-                                    <input type="email" class="email" />
-                                </label>
-                                <label>
-                                    Onderwerp
-                                    <input type="text" class="subject" />
+                                    <input type="email" class="email" name="email" required />
                                 </label>
                                 <label>
                                     Bericht
-                                    <textarea class="message"></textarea>
+                                    <textarea class="message" name="message" required></textarea>
                                 </label>
+                                <div class="status">
+
+                                </div>
                                 <button type="submit" class="submit">Verzenden</button>
 
                             </form>
