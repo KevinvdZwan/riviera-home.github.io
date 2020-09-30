@@ -1,6 +1,6 @@
 console.log('It works');
-$(document).ready(function () {
-    $('.submit').click(function (evt) {
+$(document).ready(function() {
+    $('.submit').click(function(evt) {
         console.log('Clicked button');
         var salutation = $.('.salutation').val();
         var letters = $('.letters').val();
@@ -21,7 +21,7 @@ $(document).ready(function () {
             evt.preventDefault();
             statusElm.append('<div>Voorletters staat niet goed</div>');
         }
-        if(lastname.length > 2) {
+        if (lastname.length > 2) {
             statusElm.append('<div>Achternaam staat goed</div>')
         } else {
             evt.preventDefault();
@@ -41,3 +41,15 @@ $(document).ready(function () {
         }
     });
 });
+
+
+$('.contact').click((e) => {
+    e.preventDefault();
+})
+
+
+// function sendForm() {
+//     document.getElementsByClassName('.contact').addEventListener("submit", function(e) {
+//         e.preventDefault();
+//     })
+// }
